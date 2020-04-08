@@ -2,9 +2,13 @@ export default {
   colors: {
     primary: {
       dark: '#1c2131',
-      light: '#22293c',
+      mid: '#22293c',
+      light: '#2f3751',
+      light2: '#48557c',
     },
-    gray: {
+    grayish: {
+      dark: '#99a4c4',
+      mid: '#d9dde9',
       light: '#e4e7ef',
     },
   },
@@ -13,6 +17,7 @@ export default {
     secondary: 'Roboto, sans-serif',
   },
   fontSizes: {
+    small: '14px',
     regular: '16px',
   },
 };
