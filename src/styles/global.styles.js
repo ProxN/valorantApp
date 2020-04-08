@@ -23,10 +23,13 @@ export default createGlobalStyle`
         line-height:normal;
         font-weight:normal;
         ${({ theme }) => css`
-          background-color: ${theme.colors.primary.light};
+          background-color: ${theme.colors.primary.mid};
           font-size: ${theme.fontSizes.regular};
-          color: ${theme.colors.gray.light};
+          color: ${theme.colors.grayish.light};
           font-family: ${theme.fonts.primary};
         `};
+    }
+    a{
+        text-decoration:none;
     }
 `;
