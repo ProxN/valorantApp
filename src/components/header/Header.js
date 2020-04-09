@@ -1,8 +1,8 @@
 import React from 'react';
 import { ReactComponent as Logo } from './logo.svg';
-import { HeaderContainer, Navbar, LogoLink, NavLeft } from './styles';
 import Menu from './components/Menu';
-import Search from './components/Search';
+import SearchFrom from '../SearchForm';
+import { HeaderContainer, Navbar, LogoLink, NavLeft } from './styles';
 
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
           </LogoLink>
           <Menu />
         </NavLeft>
-        <Search />
+        <SearchFrom small />
       </Navbar>
     </HeaderContainer>
   );
