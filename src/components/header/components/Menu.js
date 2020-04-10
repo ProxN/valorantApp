@@ -1,14 +1,15 @@
 import React from 'react';
-import { MenuList, MenuItem, MenuLink } from './Menu.styles';
+import Link from '../../Link';
+import { MenuList, MenuItem } from './Menu.styles';
 
 const Menu = () => {
   return (
     <MenuList>
       <MenuItem>
-        <MenuLink>Agents</MenuLink>
+        <Link>Agents</Link>
       </MenuItem>
       <MenuItem>
-        <MenuLink>Weapons</MenuLink>
+        <Link>Weapons</Link>
       </MenuItem>
     </MenuList>
   );

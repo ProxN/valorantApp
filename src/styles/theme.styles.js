@@ -3,6 +3,7 @@ export default {
     primary: {
       dark: '#1c2131',
       mid: '#22293c',
+      mid2: '#293046',
       light: '#2f3751',
       light2: '#48557c',
     },
@@ -11,6 +12,7 @@ export default {
       mid: '#d9dde9',
       light: '#e4e7ef',
     },
+    red: '#fe4451',
   },
   fonts: {
     primary: 'Cairo, sans-serif',

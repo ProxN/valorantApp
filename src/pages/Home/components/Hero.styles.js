@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const HeroContainer = styled.section`
   width: 100%;
@@ -17,8 +17,9 @@ export const HeroContent = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
+  padding-top: 80px;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
 `;
 
 export const CoverContainer = styled.div`
@@ -27,5 +28,25 @@ export const CoverContainer = styled.div`
     position: absolute;
     transform: translate(-50%, -80%);
     left: 50%;
+  }
+`;
+
+export const LogoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+  svg {
+    height: 50px;
+    width: 50px;
+  }
+`;
+export const LogoName = styled.h4`
+  font-weight: 500;
+  font-size: 26px;
+  color: ${({ theme }) => theme.colors.grayish.mid};
+  span {
+    color: ${({ theme }) => theme.colors.red};
+    font-weight: 700;
   }
 `;

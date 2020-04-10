@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as Logo } from './logo.svg';
+import { ReactComponent as Logo } from '../../logo.svg';
 import Menu from './components/Menu';
 import SearchFrom from '../SearchForm';
 import { HeaderContainer, Navbar, LogoLink, NavLeft } from './styles';

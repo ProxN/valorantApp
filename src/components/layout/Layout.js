@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import LayoutContainer from './styles';
 import GlobalStyles from '../../styles/global.styles';
 import Header from '../header/Header';
+import Footer from '../footer/Footer';
 
 const Layout = ({ children }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
       <GlobalStyles />
       <Header />
       {children}
+      <Footer />
     </LayoutContainer>
   );
 };
