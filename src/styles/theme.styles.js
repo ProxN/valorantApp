@@ -21,6 +21,7 @@ export default {
   fontSizes: {
     small: '14px',
     regular: '16px',
+    large: '24px',
   },
   headerHeight: '60px',
   footerHeight: '70px',
