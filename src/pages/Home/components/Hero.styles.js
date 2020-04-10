@@ -17,7 +17,7 @@ export const HeroContent = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  padding-top: 80px;
+  padding: 80px 0;
   align-items: center;
   flex-direction: column;
 `;

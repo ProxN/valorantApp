@@ -22,4 +22,6 @@ export default {
     small: '14px',
     regular: '16px',
   },
+  headerHeight: '60px',
+  footerHeight: '70px',
 };

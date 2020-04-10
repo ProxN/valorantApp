@@ -1,16 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import LayoutContainer from './styles';
-import GlobalStyles from '../../styles/global.styles';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
+import LayoutContainer, { Wrapper } from './styles';
+import GlobalStyles from '../../styles/global.styles';
 
 const Layout = ({ children }) => {
   return (
     <LayoutContainer>
       <GlobalStyles />
       <Header />
-      {children}
+      <Wrapper>{children}</Wrapper>
       <Footer />
     </LayoutContainer>
   );

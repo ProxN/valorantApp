@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const FooterContainer = styled.footer`
-  height: 70px;
+  height: ${({ theme }) => theme.footerHeight};
   width: 100%;
   background: #293046;
   display: flex;

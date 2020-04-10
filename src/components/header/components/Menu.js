@@ -6,7 +6,7 @@ const Menu = () => {
   return (
     <MenuList>
       <MenuItem>
-        <Link>Agents</Link>
+        <Link to="/agents">Agents</Link>
       </MenuItem>
       <MenuItem>
         <Link>Weapons</Link>

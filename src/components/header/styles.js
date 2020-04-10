@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  height: 60px;
+  height: ${({ theme }) => theme.headerHeight};
   background: ${({ theme }) => theme.colors.primary.dark};
   display: flex;
   align-items: center;
