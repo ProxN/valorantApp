@@ -18,6 +18,7 @@ export const AgentName = styled.div`
   position: absolute;
   bottom: 0;
   width: 100%;
+  text-transform: capitalize;
   text-align: center;
   background: rgba(28, 33, 49, 0.9);
   padding: 5px 10px;

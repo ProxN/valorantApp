@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const AgentsContainer = styled.section`
+export const SectionContainer = styled.section`
   padding: 50px 0;
   width: 100%;
 `;

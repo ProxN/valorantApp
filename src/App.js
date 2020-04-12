@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Home from './pages/Home';
 import Agents from './pages/Agents';
+import Agent from './pages/Agent';
 import Layout from './components/layout/Layout';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/agents" component={Agents} exact />
+          <Route path="/agents/:agent" component={Agent} exact />
           <Redirect to="/" />
         </Switch>
       </Layout>
