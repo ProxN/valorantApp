@@ -9,7 +9,7 @@ const Menu = () => {
         <Link to="/agents">Agents</Link>
       </MenuItem>
       <MenuItem>
-        <Link>Weapons</Link>
+        <Link to="/weapons">Weapons</Link>
       </MenuItem>
     </MenuList>
   );

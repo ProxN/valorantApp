@@ -1,11 +1,11 @@
 import React from 'react';
 import { SectionContainer, GridContainer, GridRow, Heading } from './styles';
 
-const Section = ({ children, headline }) => {
+const Section = ({ children, headline, width }) => {
   return (
     <SectionContainer>
       <GridContainer>
-        <GridRow>
+        <GridRow width={width}>
           {headline && (
             <Heading>
               <span>V</span>

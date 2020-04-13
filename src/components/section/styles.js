@@ -9,7 +9,7 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(12, 1fr);
 `;
 export const GridRow = styled.div`
-  grid-column: 4/ 10;
+  grid-column: ${(props) => (props.width ? '3/ 11' : '4/ 10')};
 `;
 
 export const Heading = styled.h1`

@@ -23,6 +23,7 @@ export const AbililtyContent = styled.div`
 
 export const AbililtyInfoText = styled.p`
   font-weight: 600;
+  text-transform: capitalize;
   ${({ theme }) => css`
     color: ${theme.colors.grayish.mid};
     font-size: ${theme.fontSizes.small};
