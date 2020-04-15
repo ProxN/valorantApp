@@ -7,4 +7,5 @@ export default styled.div`
   grid-template-areas:
     'sidearms smgs rifles sniper'
     'sidearms shotguns rifles heavies';
+  margin-top: 20px;
 `;

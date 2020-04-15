@@ -6,10 +6,8 @@ import weapons from '../../data/weapons';
 
 const Weapons = () => {
   return (
-    <Section width="medium">
+    <Section width="medium" headline="Weapons">
       <WeaponsList>
-        {/* <SideArmWeapons category="Sidearm" />
-        <SideArmWeapons category="SMGs" /> */}
         {Object.keys(weapons).map((el) => (
           <SideArmWeapons data={weapons[el]} category={el} />
         ))}

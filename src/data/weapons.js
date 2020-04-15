@@ -13,6 +13,7 @@ export default {
           fire_rate: '6.75 rounds/sec',
         },
         alternate: {
+          mode: '3-Round Burst, Spread Increase',
           fire_rate: '2.22 rounds/sec',
         },
         damage: [
@@ -158,7 +159,7 @@ export default {
           fire_rate: '18 rounds/sec',
         },
         alternate: {
-          zoom_mode: '1.15x, 4 round burst, spread reduction',
+          mode: '1.15x, 4 round burst, spread reduction',
           fire_rate: '4 rounds/sec',
         },
         damage: [
@@ -190,7 +191,7 @@ export default {
           fire_rate: '13.33 rounds/sec',
         },
         alternate: {
-          zoom_mode: '1.15x, spread reduction',
+          mode: '1.15x, spread reduction',
           fire_rate: '12 rounds/sec',
         },
         damage: [
@@ -224,7 +225,7 @@ export default {
           fire_rate: '9.12 rounds/sec',
         },
         alternate: {
-          zoom_mode: '1.25x, 3-Round burst',
+          mode: '1.25x, 3-Round burst',
           fire_rate: '4 rounds/sec',
         },
         damage: [
@@ -250,7 +251,7 @@ export default {
           fire_rate: '6.5 rounds/sec',
         },
         alternate: {
-          zoom_mode: 'Zoom (1.5x), slight spread reduction',
+          mode: 'Zoom (1.5x), slight spread reduction',
           fire_rate: '6.5 rounds/sec',
         },
         damage: [
@@ -276,7 +277,7 @@ export default {
           fire_rate: '11 rounds/sec',
         },
         alternate: {
-          zoom_mode: 'Zoom (1.25x). Slight spread reduction',
+          mode: 'Zoom (1.25x). Slight spread reduction',
           fire_rate: '9.9 rounds/sec',
         },
         damage: [
@@ -314,7 +315,7 @@ export default {
           fire_rate: '9.25 rounds/sec',
         },
         alternate: {
-          zoom_mode: 'Zoom (1.25x). Slight spread reduction',
+          mode: 'Zoom (1.25x). Slight spread reduction',
           fire_rate: '8.32 rounds/sec',
         },
         damage: [
@@ -342,7 +343,7 @@ export default {
           fire_rate: '1.1 rounds/sec',
         },
         alternate: {
-          zoom_mode: 'Semi-Automatic Air Burst (Extended primary fire shot)',
+          mode: 'Semi-Automatic Air Burst (Extended primary fire shot)',
           fire_rate: '1.1 rounds/sec',
         },
         damage: [
@@ -416,7 +417,7 @@ export default {
           fire_rate: '1.5 rounds/sec',
         },
         alternate: {
-          zoom_mode: 'Dual-Zoom Mode (2.5x), significant spread reduction',
+          mode: 'Dual-Zoom Mode (2.5x), significant spread reduction',
           fire_rate: '1.2 rounds/sec',
         },
         damage: [
@@ -442,7 +443,7 @@ export default {
           fire_rate: '0.75 rounds/sec',
         },
         alternate: {
-          zoom_mode: 'Dual-Zoom Mode (2.5x or 5x), significant spread reduction',
+          mode: 'Dual-Zoom Mode (2.5x or 5x), significant spread reduction',
           fire_rate: '0.75 rounds/sec',
         },
         damage: [
@@ -470,7 +471,7 @@ export default {
           fire_rate: '10 to 13 rounds/sec (increasing during fire)',
         },
         alternate: {
-          zoom_mode: '1.25x, slight spread reduction',
+          mode: '1.25x, slight spread reduction',
           fire_rate: '10 to 13 rounds/sec (increasing during fire)',
         },
         damage: [
@@ -502,7 +503,7 @@ export default {
           fire_rate: '12 to 15.6 rounds/sec (increasing during fire)',
         },
         alternate: {
-          zoom_mode: '1.25x, slight spread reduction',
+          mode: '1.25x, slight spread reduction',
           fire_rate: '15.6 rounds/sec',
         },
         damage: [
