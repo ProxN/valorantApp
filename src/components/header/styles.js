@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const HeaderContainer = styled.header`
   height: ${({ theme }) => theme.headerHeight};
@@ -15,13 +16,14 @@ export const Navbar = styled.nav`
   width: 100%;
 `;
 
-export const LogoLink = styled.a`
+export const LogoLink = styled(Link)`
   display: flex;
   align-items: center;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
   line-height: 1.3;
+  color: ${({ theme }) => theme.colors.grayish.mid};
   svg {
     margin-right: 5px;
   }

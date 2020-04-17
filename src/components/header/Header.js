@@ -9,7 +9,7 @@ const Header = () => {
     <HeaderContainer>
       <Navbar>
         <NavLeft>
-          <LogoLink>
+          <LogoLink to="/">
             <Logo />
             Valorant
           </LogoLink>

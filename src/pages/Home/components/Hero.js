@@ -23,9 +23,9 @@ const Hero = () => {
         </LogoContainer>
         <SearchFrom />
       </HeroContent>
-      <CoverContainer>
+      {/* <CoverContainer>
         <Cover />
-      </CoverContainer>
+      </CoverContainer> */}
     </HeroContainer>
   );
 };
