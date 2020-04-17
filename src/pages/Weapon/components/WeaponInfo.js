@@ -7,11 +7,12 @@ import {
   WeaponName,
 } from './WeaponInfo.styles';
 import WeaponStats from './WeaponStats';
+import DamageStats from './DamageStats';
 
 const WeaponInfo = ({ weapon }) => {
   const { stats, name, cost, image } = weapon;
   // eslint-disable-next-line camelcase
-  const { magazine, wall_penetration, primary, alternate } = stats;
+  const { magazine, wall_penetration, primary, alternate, damage } = stats;
 
   return (
     <WeaponContent>
@@ -66,6 +67,8 @@ const WeaponInfo = ({ weapon }) => {
             ]}
           />
         )}
+
+        <DamageStats damage={damage} />
       </WeaponStatsContainer>
     </WeaponContent>
   );
