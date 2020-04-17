@@ -3,8 +3,7 @@ export default {
     {
       name: 'classic',
       cost: 'free',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/5/57/Classic.png/revision/latest/scale-to-width-down/350?cb=20200404154125',
+      image: 'https://i.imgur.com/nZzLKKO.png',
       stats: {
         magazine: 12,
         wall_penetration: 'low',
@@ -35,8 +34,7 @@ export default {
     {
       name: 'shorty',
       cost: '200',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/7/77/Shorty.png/revision/latest/scale-to-width-down/350?cb=20200404154222',
+      image: 'https://i.imgur.com/vbwOEkB.png',
       stats: {
         magazine: 2,
         wall_penetration: 'low',
@@ -63,8 +61,7 @@ export default {
     {
       name: 'frenzy',
       cost: '400',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/f/f1/Frenzy.png/revision/latest/scale-to-width-down/350?cb=20200404154617',
+      image: 'https://i.imgur.com/SuE2yB6.png',
       stats: {
         magazine: 13,
         wall_penetration: 'low',
@@ -91,8 +88,7 @@ export default {
     {
       name: 'ghost',
       cost: '500',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/a/ab/Ghost.png/revision/latest/scale-to-width-down/350?cb=20200404154731',
+      image: 'https://i.imgur.com/KOveNj6.png',
       stats: {
         magazine: 15,
         wall_penetration: 'low',
@@ -119,8 +115,7 @@ export default {
     {
       name: 'sheriff',
       cost: '800',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/3/3e/Sheriff.png/revision/latest/scale-to-width-down/350?cb=20200404154438',
+      image: 'https://i.imgur.com/UJwsLEr.png',
       stats: {
         magazine: 6,
         wall_penetration: 'High',
@@ -149,8 +144,7 @@ export default {
     {
       name: 'stinger',
       cost: '1000',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/b/b6/Stinger.png/revision/latest/scale-to-width-down/350?cb=20200404170849',
+      image: 'https://i.imgur.com/EWVlVf6.png',
       stats: {
         magazine: 20,
         wall_penetration: 'low',
@@ -181,8 +175,7 @@ export default {
     {
       name: 'spectre',
       cost: '1600',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/9/90/Spectre.png/revision/latest/scale-to-width-down/350?cb=20200404170922',
+      image: 'https://i.imgur.com/QcEZysD.png',
       stats: {
         magazine: 30,
         wall_penetration: 'medium',
@@ -215,8 +208,7 @@ export default {
     {
       name: 'bulldog',
       cost: '2100',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/0/07/Bulldog.png/revision/latest/scale-to-width-down/350?cb=20200404171103',
+      image: 'https://i.imgur.com/kdeXmqn.png',
       stats: {
         magazine: 24,
         wall_penetration: 'medium',
@@ -241,8 +233,7 @@ export default {
     {
       name: 'guardian',
       cost: '2100',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/f/fd/Guardian.png/revision/latest/scale-to-width-down/200?cb=20200404171224',
+      image: 'https://i.imgur.com/GTPFbYe.png',
       stats: {
         magazine: 12,
         wall_penetration: 'medium',
@@ -267,8 +258,7 @@ export default {
     {
       name: 'phantom',
       cost: '2900',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/e/ec/Phantom.png/revision/latest/scale-to-width-down/200?cb=20200404171302',
+      image: 'https://i.imgur.com/kHklAuA.png',
       stats: {
         magazine: 30,
         wall_penetration: 'medium',
@@ -305,8 +295,7 @@ export default {
     {
       name: 'vandal',
       cost: '2900',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/5/56/Vandal.png/revision/latest/scale-to-width-down/200?cb=20200404171348',
+      image: 'https://i.imgur.com/UTbVRw8.png',
       stats: {
         magazine: 25,
         wall_penetration: 'medium',
@@ -333,8 +322,7 @@ export default {
     {
       name: 'bucky',
       cost: '900',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/e/eb/Bucky.png/revision/latest/scale-to-width-down/200?cb=20200404171832',
+      image: 'https://i.imgur.com/42yriRi.png',
       stats: {
         magazine: 5,
         wall_penetration: 'low',
@@ -371,8 +359,7 @@ export default {
     {
       name: 'judge',
       cost: '1500',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/8/8a/Judge.png/revision/latest/scale-to-width-down/200?cb=20200404171858',
+      image: 'https://i.imgur.com/rcXG87y.png',
       stats: {
         magazine: 5,
         wall_penetration: 'medium',
@@ -407,8 +394,7 @@ export default {
     {
       name: 'marshal',
       cost: '1100',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/b/b9/Marshal.png/revision/latest/scale-to-width-down/348?cb=20200404172126',
+      image: 'https://i.imgur.com/6tdxTFW.png',
       stats: {
         magazine: 5,
         wall_penetration: 'medium',
@@ -433,8 +419,7 @@ export default {
     {
       name: 'operator',
       cost: '4500',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/b/b9/Marshal.png/revision/latest/scale-to-width-down/348?cb=20200404172126',
+      image: 'https://i.imgur.com/auOuiA5.png',
       stats: {
         magazine: 5,
         wall_penetration: 'high',
@@ -461,8 +446,7 @@ export default {
     {
       name: 'ares',
       cost: '1700',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/0/05/Ares.png/revision/latest/scale-to-width-down/350?cb=20200404171957',
+      image: 'https://i.imgur.com/a2H6zxl.png',
       stats: {
         magazine: 50,
         wall_penetration: 'high',
@@ -493,8 +477,7 @@ export default {
     {
       name: 'odin',
       cost: '3200',
-      image:
-        'https://vignette.wikia.nocookie.net/valorant/images/5/58/Odin.png/revision/latest/scale-to-width-down/349?cb=20200404172022',
+      image: 'https://i.imgur.com/dnPDqlV.png',
       stats: {
         magazine: 100,
         wall_penetration: 'high',
