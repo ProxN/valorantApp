@@ -1,7 +1,14 @@
 import styled from 'styled-components';
+import media from '../../../styles/media';
 
 export const AgentAbilitiesList = styled.div`
   width: 120px;
+
+  ${media.tablet`
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+  `};
 `;
 
 export const AgentAbility = styled.div`
@@ -31,6 +38,12 @@ export const AgentAbility = styled.div`
     transform: translateX(100%);
     border: 1px solid ${({ theme }) => theme.colors.primary.light};
     border-left: none;
+    ${media.tablet`
+      bottom:0;
+      transform:translateY(100%);
+      right:unset;
+      
+  `};
   }
   &,
   span {

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from '../../../styles/media';
 
 export const AgentCard = styled.div`
   background: rgba(28, 33, 49, 0.5);
@@ -7,11 +8,16 @@ export const AgentCard = styled.div`
   border: 1px solid ${({ theme }) => theme.colors.primary.light};
   border-radius: 4px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 `;
 
 export const AgentImage = styled.img`
   max-width: 100%;
   height: auto;
+  ${media.desktop`
+    max-width:80%;
+  `};
 `;
 
 export const AgentName = styled.div`

@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from '../../styles/media';
 
 export const AgentHeader = styled.div`
   display: flex;
@@ -70,4 +71,7 @@ export const AgentInsightsText = styled.p`
 export const AgentContent = styled.div`
   margin-top: 15px;
   display: flex;
+  ${media.tablet`
+    flex-direction:column;
+  `};
 `;

@@ -10,8 +10,8 @@ const Footer = () => {
           Made with &nbsp;<span>&#9829;</span>&nbsp; in Morocco
         </MadeWith>
         <FooterLinks>
-          <Link>Agents</Link>
-          <Link>Weapons</Link>
+          <Link to="/agents">Agents</Link>
+          <Link to="/weapons">Weapons</Link>
         </FooterLinks>
       </FooterContent>
     </FooterContainer>

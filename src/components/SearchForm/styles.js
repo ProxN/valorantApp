@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from '../../styles/media';
 
 const SmallInput = css`
   padding: 8px 5px;
@@ -34,6 +35,15 @@ export const SearchContainer = styled.div`
       return props.small && SmallInput;
     }}
   }
+  ${media.tablet`
+    width: ${(props) => (props.small ? '200px' : '500px')};
+  `};
+  ${media.thone`
+  width: ${(props) => (props.small ? '200px' : '400px')};
+  `};
+  ${media.phone`
+  width: ${(props) => (props.small ? '150px' : '300px')};
+  `};
 `;
 
 export const Button = styled.button`

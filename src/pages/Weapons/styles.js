@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from '../../styles/media';
 
 export default styled.div`
   display: grid;
@@ -8,4 +9,16 @@ export default styled.div`
     'sidearms smgs rifles sniper'
     'sidearms shotguns rifles heavies';
   margin-top: 20px;
+
+  ${media.tablet`
+    grid-template-areas:
+    'sidearms'
+    'smgs'
+    'rifles'
+    'shotguns'
+    'sniper'
+    'heavies';
+    grid-template-columns:1fr;
+  `};
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, auto)); */
 `;

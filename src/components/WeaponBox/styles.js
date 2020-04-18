@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
+import media from '../../styles/media';
 
 export const WeaponLink = styled(Link)`
   display: block;
@@ -16,9 +17,15 @@ export const WeaponBox = styled.div`
   justify-content: center;
   position: relative;
   transition: border 0.2s ease-in-out;
+  ${media.tablet`
+    height:130px;
+  `};
   img {
     max-width: 70%;
     height: auto;
+    ${media.tiny`
+      padding:10px;
+    `};
   }
   ${({ theme }) => css`
     background: ${theme.colors.primary.mid2};

@@ -47,4 +47,11 @@ export default createGlobalStyle`
     h1{
         font-size: ${({ theme }) => theme.fontSizes.large};
     }
+
+    .backward{
+        transition:transform 0.2s ease, width 0.18s 0.2s ease;
+    }
+    .forward{
+        transition: width 0.18s ease, transform 0.2s 0.18s ease;
+    }
 `;

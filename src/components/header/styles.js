@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import media from '../../styles/media';
 
 export const HeaderContainer = styled.header`
   height: ${({ theme }) => theme.headerHeight};
@@ -14,6 +15,12 @@ export const Navbar = styled.nav`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  ${media.desktop`
+    padding: 0 80px;
+  `};
+  ${media.tablet`
+    padding: 0 20px;
+  `};
 `;
 
 export const LogoLink = styled(Link)`

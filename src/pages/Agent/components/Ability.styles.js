@@ -1,4 +1,5 @@
 import styled, { css } from 'styled-components';
+import media from '../../../styles/media';
 
 export const AgentAbilityInfo = styled.div`
   background: rgba(28, 33, 49, 0.5);
@@ -6,6 +7,10 @@ export const AgentAbilityInfo = styled.div`
   width: 100%;
   border-radius: 4px;
   height: max-content;
+  ${media.tablet`
+    margin-left:0;
+    margin-top:40px;
+  `};
 `;
 
 export const VideoContainer = styled.div`
